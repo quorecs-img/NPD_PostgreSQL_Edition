@@ -54,7 +54,8 @@ If both are present, `DATABASE_URL` takes priority.
 Recommended target:
 
 - Ubuntu 22.04 / 24.04
-- 1 vCPU / 2 GB RAM minimum
+- Debian 11/12/13
+- 1 vCPU / 2 GB / 20GB
 - Public TCP port `3000` open, or put it behind Nginx / Caddy
 
 ### Method 1: One-click deployment
