@@ -9,7 +9,7 @@ This repository is a PostgreSQL-focused fork of NodePassDash.
 It keeps the original NodePassDash dashboard experience, but replaces the previous SQLite runtime path with a full PostgreSQL-based deployment model for long-running production use.
 
 ## What Changed
-
+ 
 - Fully migrated the backend database layer from SQLite to PostgreSQL
 - Removed SQLite runtime dependencies and connection logic
 - Added PostgreSQL connection config with `DATABASE_URL` priority and split env fallback
