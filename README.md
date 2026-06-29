@@ -63,7 +63,7 @@ Recommended target:
 Run this on your cloud server:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/psmtnhljs/npd_fixsql/main/scripts/deploy_cloud_postgres.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/quorecs-img/NPD_PostgreSQL_Edition/main/scripts/deploy_cloud_postgres.sh | sudo bash
 ```
 
 You can also customize it:
@@ -74,7 +74,7 @@ INSTALL_DIR=/opt/npd_fixsql \
 POSTGRES_DB=nodepassdash \
 POSTGRES_USER=nodepass \
 POSTGRES_PASSWORD='ChangeThisPassword!' \
-curl -fsSL https://raw.githubusercontent.com/psmtnhljs/npd_fixsql/main/scripts/deploy_cloud_postgres.sh | sudo -E bash
+curl -fsSL https://raw.githubusercontent.com/quorecs-img/NPD_PostgreSQL_Edition/main/scripts/deploy_cloud_postgres.sh | sudo -E bash
 ```
 
 After deployment:
@@ -102,7 +102,7 @@ sudo apt install -y git curl
 Install Docker if needed, then clone the repo:
 
 ```bash
-git clone https://github.com/psmtnhljs/npd_fixsql.git
+git clone https://github.com/quorecs-img/NPD_PostgreSQL_Edition.git
 cd npd_fixsql
 ```
 
