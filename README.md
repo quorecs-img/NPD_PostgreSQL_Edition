@@ -88,7 +88,11 @@ Open:
 
 ```text
 http://YOUR_SERVER_IP:3000
+Username: nodepass
+pwd: Np123456
 ```
+
+
 
 ### Method 2: Manual deployment
 
